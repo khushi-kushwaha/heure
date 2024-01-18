@@ -1,0 +1,239 @@
+@font-face {
+    font-family: neue;
+    src: url(neue-montreal-free/NeueMontreal-Medium.otf);
+}
+@font-face {
+    font-family: neuebold;
+    src: url(neue-montreal-free/NeueMontreal-Bold.otf);
+}
+@font-face {
+    font-family: neuelight;
+    src: url(neue-montreal-free/NeueMontreal-LightItalic.otf);
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: neue;
+}
+.bluedive{
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+    z-index: 99;
+}
+.nav{
+    height: 10vh;
+    width: 100%;
+    /* background-color: red; */
+    position: fixed;
+    z-index: 9999999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.nav h2{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    mix-blend-mode: difference;
+    
+}
+.nav-part1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 80px;
+    mix-blend-mode: difference;
+
+}
+.nav-part2{
+    height: 100%;
+    width: 20%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    mix-blend-mode: difference;
+
+
+}
+.nav-part2 .box{
+    height: 80px;
+    width: 80px;
+    margin-left: -55%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    scale: 0.5;
+    position: relative;
+    overflow: hidden;
+    mix-blend-mode: difference;
+}
+.circle1{
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 50%;
+    /* transform: translate(-50%,-50%); */
+    position: absolute;
+    mix-blend-mode: difference;
+
+
+}
+.nav-part3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.blue-fixed{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(1, 1, 90, 0.777);
+    position: fixed;
+    z-index: 999;
+    display: none;
+    
+    
+}
+.main {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* border-top: 1px solid transparent; */
+    /* background-color: red; */
+}
+.page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+}
+.pgbox{
+    
+    height: 200px;
+    /* background-color: pink; */
+    width: 100%;
+    position: absolute;
+    z-index: 9999;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0px 40px;
+    color: #fff;
+}
+.pgbox h1{
+    font-size: 160px;
+    font-family: neuebold;
+    font-weight: 200    ;
+    color: #fff;
+    /* scale: 1.9; */
+}
+.pgbox p{
+    width: 15%;
+    text-align: center;
+}
+.page2{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #E1DEDC;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding-top: 70px;
+}
+.page2 p{
+    margin-bottom: 30px;
+}
+.page2 .line{
+    height: 230px;
+    width: 2px;
+    background-color: #000;
+
+}
+.page2 h1{
+    font-size: 200px;
+}
+.page2 .rline{
+    height: 0px;
+    width: 2px;
+    background-color: #000;
+    margin-left: 10%;
+    rotate: -30deg;
+}
+.page3{
+    min-height: 100vh;
+    background-color: #000;
+    width: 100%;
+    position: relative;
+}
+.page3 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    scale: 0.5;
+    z-index: 99999;
+}
+.page4{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #0148C6;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 120px;
+}
+.page4 img{
+    filter:sepia(3);
+    margin-bottom: 60px;
+}
+.page4 p{
+    width: 30%;
+    text-align: center;
+    color: #fff;
+}
+.page4 h1 {
+    font-size: 180px;
+    font-weight: 800;
+    font-family: neuelight;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 250px;
+}
+.page4 .p4box{
+    height: 400px;
+    width: 400px;
+    background-color: transparent;
+    border: 3px solid #000;
+    scale: .6;
+    position: relative;
+    overflow: hidden;
+}
+.cir{
+    height: 400px;
+    width: 400px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+}
